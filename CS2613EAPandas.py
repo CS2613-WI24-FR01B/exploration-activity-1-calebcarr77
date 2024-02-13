@@ -105,7 +105,7 @@ print("print 'exit' to exit program")
 fileType = input("Would you like to read a CSV file or an Excel File? (Please print either CSV or Excel)\n")
 fileType = fileType.lower()
 
-#  or (dir != "exit")
+
 while(fileType != "exit" or dir != "exit"):
     try:
     
