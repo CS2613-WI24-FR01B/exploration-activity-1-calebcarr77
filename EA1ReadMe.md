@@ -25,7 +25,7 @@ Below is examples of some of these functions at use, *blue highlights are input,
 The CSV file in the examples of I/O is shown in the screenshot below:
 
 
-<img width="117" alt="Screenshot 2024-02-12 at 9 49 38 PM" src="https://github.com/CS2613-WI24-FR01B/exploration-activity-1-calebcarr77/assets/97684864/6d303be2-2961-414d-a4b2-b4dcdaa6ae61">
+<center><img width="117" alt="Screenshot 2024-02-12 at 9 49 38 PM" src="https://github.com/CS2613-WI24-FR01B/exploration-activity-1-calebcarr77/assets/97684864/6d303be2-2961-414d-a4b2-b4dcdaa6ae61"></center>
 
 
 ![Screenshot%202024-02-12%20at%206.11.58%20PM.png](attachment:Screenshot%202024-02-12%20at%206.11.58%20PM.png)
