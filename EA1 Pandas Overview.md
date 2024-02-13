@@ -1,6 +1,6 @@
-# <center>CS2613 Exploratory Assignment</center>
-# <center>Caleb Carr</center>
-![alt text](https://geo-python-site.readthedocs.io/en/stable/_images/pandas_logo.png)
+# <p align="center">CS2613 Exploratory Assignment</p>
+# <p align="center">Caleb Carr</p>
+![](https://geo-python-site.readthedocs.io/en/stable/_images/pandas_logo.png)
 
 
 ## Introduction
@@ -26,8 +26,9 @@ Pandas has a wide variety of abilities, this section will into detail on how it 
 
 Pandas' strength comes from it's ability to work with data. Many of these strengths would not be possible without DataFrames. A DataFrame is a 2-dimensional labeled data structure with columns of potentially varying types. It can be thought of as a spreadsheet or an SQL table. A 1-dimensional DataFrame is called a series [[ref](https://pandas.pydata.org/docs/user_guide/dsintro.html#)]. 
 
-![Example of DataFrame](https://pynative.com/wp-content/uploads/2021/02/dataframe.png)
-<center> Example of a DataFrame</center>
+
+<p align="center"><img width="500" alt="" src=https://pynative.com/wp-content/uploads/2021/02/dataframe.png></p>
+<p align="center"> Example of a DataFrame </p>
 
 
 Much can be done using DataFrames, to name a few examples:
@@ -86,7 +87,9 @@ dataValues = {
 dataFrame = pd.DataFrame(dataValues)
 ```
 The DataFrame would be displayed as: 
-![image.png](attachment:image.png)
+
+<p align="center"><img width="200" alt="Screenshot 2024-02-12 at 3 39 17 PM" src="https://github.com/CS2613-WI24-FR01B/exploration-activity-1-calebcarr77/assets/97684864/30ae2ed1-41f9-4251-b806-8a1ce8acfbb4"></p>
+
 
 ### Inserting and removing columns
 Using the DataFrame created above:
@@ -96,7 +99,9 @@ There are a variety of ways to insert a column into a DataFrame, the following w
 dataFrame.insert(2, "column3", [7, 8, 9], True)
 ```
 The DataFrame would now be displayed as:
-![image-3.png](attachment:image-3.png)
+
+<p align="center"><img width="300" alt="Screenshot 2024-02-12 at 4 12 58 PM" src="https://github.com/CS2613-WI24-FR01B/exploration-activity-1-calebcarr77/assets/97684864/8aac2cca-21f8-406e-9c56-29b899d114db"></p>
+
 
 
 To remove a column there is a function .drop(). This method takes in a variety of parameters, allowing columns to be dropped in many different ways. One example of how to drop a column is as follows:
@@ -107,7 +112,9 @@ To remove a column there is a function .drop(). This method takes in a variety o
 dataFrame = dataFrame.drop(dataFrame.columns[[0]], axis=1)
 ```
 The DataFrame would now be displayed as:
-![image-4.png](attachment:image-4.png)
+
+<p align="center"><img width="200" alt="Screenshot 2024-02-12 at 4 14 20 PM" src="https://github.com/CS2613-WI24-FR01B/exploration-activity-1-calebcarr77/assets/97684864/48a7c11d-7106-4255-acb8-342c25e5f4ca"></p>
+
 
 
 ### Reading data from CSV or Excel File and converting to a DataFrame
@@ -144,8 +151,10 @@ To create a subset based on a DataFrame, the following code can be used:
 #their names with commas
 subDataFrame = dataFrame[["column2"]]
 ```
-the subset DataFrame would display as:
-![image-5.png](attachment:image-5.png)
+The subset DataFrame would display as:
+
+<p align="center"><img width="175" alt="Screenshot 2024-02-12 at 4 24 19 PM" src="https://github.com/CS2613-WI24-FR01B/exploration-activity-1-calebcarr77/assets/97684864/83592cf9-104c-4821-9690-34c170956f5f"></p>
+
 
 Pandas is a powerful tool with a massive amount of functionalities. Pandas' [official documentation](https://pandas.pydata.org/docs/) outlines the full capabilities.  
 
