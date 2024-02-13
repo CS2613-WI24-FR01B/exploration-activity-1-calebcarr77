@@ -27,9 +27,6 @@ The CSV file in the examples of I/O is shown in the screenshot below:
 
 <center><img width="117" alt="Screenshot 2024-02-12 at 9 49 38 PM" src="https://github.com/CS2613-WI24-FR01B/exploration-activity-1-calebcarr77/assets/97684864/6d303be2-2961-414d-a4b2-b4dcdaa6ae61"></center>
 
-
-![Screenshot%202024-02-12%20at%206.11.58%20PM.png](attachment:Screenshot%202024-02-12%20at%206.11.58%20PM.png)
-
 ### Getting the program started and using *shape*
 
 The screenshot below shows the beginning phase of the program. The user is prompted to enter the file type and path, then given an option of operations to be done on the data. In this case the user selected shape, this prints the number of rows and columns ![Screenshot%202024-02-12%20at%209.43.42%20PM.png](attachment:Screenshot%202024-02-12%20at%209.43.42%20PM.png)
